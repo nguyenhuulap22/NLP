@@ -52,3 +52,23 @@ NLP_T/
 ├── requirements.txt    # Danh sách thư viện cần cài đặt
 ├── .gitignore          # Các file/thư mục không đưa lên GitHub
 └── README.md           # Mô tả dự án
+Cài đặt chương trình
+Bước 1: Tải project về máy
+git clone https://github.com/nguyenhuulap22/NLP.git
+
+Sau đó mở thư mục project:
+
+cd NLP
+Bước 2: Tạo môi trường ảo
+python -m venv venv
+
+Kích hoạt môi trường ảo trên Windows:
+
+venv\Scripts\activate
+Bước 3: Cài đặt thư viện
+pip install -r requirements.txt
+Chạy chương trình
+
+Chạy lệnh sau trong terminal:
+
+streamlit run app.py
