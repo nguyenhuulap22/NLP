@@ -52,7 +52,8 @@ NLP_T/
 ├── requirements.txt    # Danh sách thư viện cần cài đặt
 ├── .gitignore          # Các file/thư mục không đưa lên GitHub
 └── README.md           # Mô tả dự án
-Cài đặt chương trình
+
+## Cài đặt chương trình
 Bước 1: Tải project về máy
 git clone https://github.com/nguyenhuulap22/NLP.git
 
