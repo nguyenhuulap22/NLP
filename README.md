@@ -40,5 +40,3 @@ Sau khi chạy lệnh, trình duyệt sẽ tự động mở lên giao diện đ
 - `terminology/`: Quản lý từ điển thuật ngữ (Glossary) và dò tìm từ vựng trong câu đầu vào.
 - `constraints/`: Xây dựng trạng thái FSA (Finite State Automaton) dựa trên từ khóa.
 
-## 🤝 Tác giả
-- Nguyễn Hữu Lập
