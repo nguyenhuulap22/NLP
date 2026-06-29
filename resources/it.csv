@@ -1,0 +1,99 @@
+source,target,category,priority,constraint_type,force,protect
+API,API,web,high,protected,1,1
+JSON,JSON,web,high,protected,1,1
+JSON response,phản hồi JSON,web,high,hard,1,0
+HTTP,HTTP,web,high,protected,1,1
+HTTPS,HTTPS,web,high,protected,1,1
+URL,URL,web,high,protected,1,1
+request,yêu cầu,web,medium,soft,0,0
+response,phản hồi,web,medium,soft,0,0
+endpoint,điểm cuối,web,medium,soft,0,0
+status code,mã trạng thái,web,medium,soft,0,0
+server,máy chủ,network,high,hard,1,0
+client,máy khách,network,medium,soft,0,0
+port,cổng,network,medium,soft,0,0
+protocol,giao thức,network,medium,soft,0,0
+socket,ổ cắm mạng,network,medium,soft,0,0
+TCP,TCP,network,high,protected,1,1
+UDP,UDP,network,high,protected,1,1
+DNS,DNS,network,high,protected,1,1
+IP address,địa chỉ IP,network,high,soft,0,0
+database query,truy vấn cơ sở dữ liệu,database,high,hard,1,0
+database,cơ sở dữ liệu,database,medium,soft,0,0
+query,truy vấn,database,medium,soft,0,0
+index,chỉ mục,database,medium,soft,0,0
+table,bảng,database,medium,soft,0,0
+column,cột,database,medium,soft,0,0
+row,hàng,database,medium,soft,0,0
+primary key,khóa chính,database,high,soft,0,0
+foreign key,khóa ngoại,database,high,soft,0,0
+SQL,SQL,database,high,protected,1,1
+NoSQL,NoSQL,database,high,protected,1,1
+transaction,giao dịch,database,medium,soft,0,0
+bug,lỗi,software,medium,soft,0,0
+code,mã,software,medium,soft,0,0
+source code,mã nguồn,software,high,soft,0,0
+application,ứng dụng,software,medium,soft,0,0
+software,phần mềm,software,medium,soft,0,0
+module,mô-đun,software,medium,soft,0,0
+function,hàm,software,medium,soft,0,0
+class,lớp,software,medium,soft,0,0
+object,đối tượng,software,medium,soft,0,0
+variable,biến,software,medium,soft,0,0
+parameter,tham số,software,medium,soft,0,0
+algorithm,thuật toán,software,medium,soft,0,0
+data structure,cấu trúc dữ liệu,software,high,soft,0,0
+compiler,trình biên dịch,software,medium,soft,0,0
+interpreter,trình thông dịch,software,medium,soft,0,0
+library,thư viện,software,medium,soft,0,0
+framework,framework,software,medium,soft,0,1
+debug,gỡ lỗi,software,medium,soft,0,0
+deploy,triển khai,devops,high,hard,1,0
+deployment,triển khai,devops,high,hard,1,0
+container,vùng chứa,devops,medium,soft,0,0
+Docker,Docker,devops,high,protected,1,1
+Kubernetes,Kubernetes,devops,high,protected,1,1
+CI/CD,CI/CD,devops,high,protected,1,1
+pipeline,pipeline,devops,medium,soft,0,1
+repository,kho mã nguồn,devops,medium,soft,0,0
+Git,Git,devops,high,protected,1,1
+GitHub,GitHub,devops,high,protected,1,1
+branch,nhánh,devops,medium,soft,0,0
+commit,commit,devops,medium,soft,0,1
+cloud computing,điện toán đám mây,cloud,high,soft,0,0
+cloud,đám mây,cloud,medium,soft,0,0
+virtual machine,máy ảo,cloud,high,soft,0,0
+load balancer,bộ cân bằng tải,cloud,high,soft,0,0
+microservice,vi dịch vụ,cloud,high,soft,0,0
+machine learning,học máy,ml,high,soft,0,0
+deep learning,học sâu,ml,high,soft,0,0
+artificial intelligence,trí tuệ nhân tạo,ml,high,soft,0,0
+AI,AI,ml,high,protected,1,1
+model,mô hình,ml,medium,soft,0,0
+dataset,tập dữ liệu,ml,medium,soft,0,0
+training data,dữ liệu huấn luyện,ml,high,soft,0,0
+accuracy,độ chính xác,ml,medium,soft,0,0
+loss function,hàm mất mát,ml,high,soft,0,0
+neural network,mạng nơ-ron,ml,high,soft,0,0
+token,token,nlp,high,soft,0,1
+tokenizer,bộ tách token,nlp,high,soft,0,0
+embedding,embedding,nlp,high,soft,0,1
+encoder,bộ mã hóa,nlp,high,soft,0,0
+decoder,bộ giải mã,nlp,high,soft,0,0
+Transformer,Transformer,nlp,high,protected,1,1
+transformer,Transformer,nlp,high,protected,1,1
+attention,cơ chế chú ý,nlp,high,soft,0,0
+cross-attention,cross-attention,nlp,high,soft,0,1
+self-attention,self-attention,nlp,high,soft,0,1
+beam search,tìm kiếm chùm,nlp,high,hard,1,0
+logits,logits,nlp,high,protected,1,1
+softmax,softmax,nlp,high,protected,1,1
+next token,token tiếp theo,nlp,high,hard,1,0
+context vector,vector ngữ cảnh,nlp,high,soft,0,0
+finite-state automaton,FSA,nlp,high,hard,1,0
+FSA,FSA,nlp,high,protected,1,1
+constrained decoding,giải mã có ràng buộc,nlp,high,hard,1,0
+multi-stack beam search,tìm kiếm chùm đa ngăn xếp,nlp,high,hard,1,0
+covered span masking,che phủ vùng nguồn đã dịch,nlp,high,soft,0,0
+source span,vùng nguồn,nlp,medium,soft,0,0
+target phrase,cụm đích,nlp,medium,soft,0,0
